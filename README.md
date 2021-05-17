@@ -35,4 +35,7 @@ $ npx react-native run-ios
 ## Libraries
 
 The app uses [React Navigation](https://reactnavigation.org/docs/stack-navigator/), [Stack Navigator](https://reactnavigation.org/docs/stack-navigator) to manage the app navigation between pages. [Redux](https://redux.js.org/) for states and [react-native-elements](https://reactnativeelements.com/) for the button.
+
+## Performance
+
 In order to improve the performance we use the keys to track the item re-ordering, keep using the basic components as much as possible. Use backend pagination.
