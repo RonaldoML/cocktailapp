@@ -17,7 +17,7 @@ export const HomeScreen = () => {
           <ButtonUtil
             action={handleSearchButton}
             backgroundColor="white"
-            title="Search"
+            title="Search your favorite cocktail"
             titleColor="black"
           />
         </View>
