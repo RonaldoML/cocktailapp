@@ -13,7 +13,7 @@ Developed in a windows environment.
 ```
 $ npm install
 ```
-- if using iOs run: 
+- if using macOs run: 
 ```
 $ pod install
 ```
@@ -21,7 +21,7 @@ $ pod install
 ```
 $ npx react-native run-android
 ```
-- if using iOs run: 
+- if using macOs run: 
 ```
 $ npx react-native run-ios
 ```
