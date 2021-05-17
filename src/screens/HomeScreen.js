@@ -1,9 +1,8 @@
 import React from 'react';
 import {useNavigation} from '@react-navigation/core';
 import {View} from 'react-native';
-import {Button} from 'react-native-elements';
-import Icon from 'react-native-vector-icons/Ionicons';
 import {styles} from '../theme/appTheme';
+import {ButtonUtil} from '../components/ButtonUtil';
 
 export const HomeScreen = () => {
   const navigator = useNavigation();
@@ -15,17 +14,11 @@ export const HomeScreen = () => {
     <>
       <View style={styles.home}>
         <View style={styles.searchButtonContainer}>
-          <Button
-            buttonStyle={{
-              borderColor: 'transparent',
-              backgroundColor: 'white',
-              borderRadius: 50,
-            }}
-            titleStyle={{color: 'black'}}
+          <ButtonUtil
+            action={handleSearchButton}
+            backgroundColor="white"
             title="Search"
-            type="solid"
-            icon={<Icon name="search" size={14} color="#841569" />}
-            onPress={handleSearchButton}
+            titleColor="black"
           />
         </View>
       </View>
