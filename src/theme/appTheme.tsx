@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
     paddingBottom: 50,
   },
   searchButtonContainer: {
-    width: 200,
+    width: 300,
     margin: 10,
   },
   searchButton: {
