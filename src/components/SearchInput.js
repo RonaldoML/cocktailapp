@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
 import PropTypes from 'prop-types';
 import {Dimensions, StyleSheet, TextInput, View} from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
 import {useDispatch} from 'react-redux';
 import {noContentAction} from '../redux/actions/search';
+import {ButtonUtil} from './ButtonUtil';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -30,11 +30,11 @@ export const SearchInput = ({term, setTerm}) => {
           value={term}
           onChange={handleChange}
         />
-        <Icon
-          name="close-sharp"
-          size={20}
-          color="grey"
-          onPress={() => setTerm('')}
+        <ButtonUtil
+          action={() => setTerm('')}
+          backgroundColor="transparent"
+          title="X"
+          titleColor="grey"
         />
       </View>
     </View>
