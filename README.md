@@ -4,7 +4,7 @@
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
-## Deployment
+## Usage
 
 - Open an android simulator
 - Open terminal in coktail folder and run the next command
@@ -12,9 +12,16 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 ```
 $ npm install
 ```
-
+- if using iOs run: 
+```
+$ pod install
+```
 - Run the next command to deploy
 
 ```
 $ npx react-native run-android
+```
+- if using iOs run: 
+```
+$ npx react-native run-ios
 ```
